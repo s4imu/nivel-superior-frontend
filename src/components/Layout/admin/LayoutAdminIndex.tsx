@@ -28,26 +28,28 @@ function LayoutAdminComponent() {
       >
         <TitleComponent title="Painel Administrador" />
         <AdminMenuComponent />
-        <Box
-          sx={{
-            position: "absolute",
-            bottom: "20px",
-            right: "20px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            color: "#00dd88",
-            fontFamily: "'Roboto', sans-serif;",
-            fontSize: "2rem",
-            fontWeight: "700",
-            gap: "0.5rem",
-          }}
-        >
-          <span>{auth.name}</span>
-          <button onClick={handleLogout} className={styles.logoutButton}>
-            Logout
-          </button>
-        </Box>
+        {auth && (
+          <Box
+            sx={{
+              position: "absolute",
+              bottom: "20px",
+              right: "20px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              color: "#00dd88",
+              fontFamily: "'Roboto', sans-serif;",
+              fontSize: "2rem",
+              fontWeight: "700",
+              gap: "0.5rem",
+            }}
+          >
+            <span>{auth.name}</span>
+            <button onClick={handleLogout} className={styles.logoutButton}>
+              Logout
+            </button>
+          </Box>
+        )}
       </Container>
     </div>
   );
