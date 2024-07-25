@@ -2,7 +2,16 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["encrypted-tbn0.gstatic.com", "arquivo.devmedia.com.br"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "encrypted-tbn0.gstatic.com",
+      },
+      {
+        protocol: "https",
+        hostname: "arquivo.devmedia.com.br",
+      },
+    ],
   },
   typescript: {
     ignoreBuildErrors: true,
