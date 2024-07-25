@@ -1,0 +1,9 @@
+.container {
+  width: 100%;
+  height: 100vh; /* Defina a altura desejada para a div */
+  background-image: url("/background-login.jpg"); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a div */
+  background-position: center; /* Centraliza a imagem horizontal e verticalmente */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  filter: blur(2px);
+}

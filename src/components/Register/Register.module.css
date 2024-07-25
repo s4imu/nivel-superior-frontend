@@ -1,0 +1,28 @@
+/* Login.module.css */
+.formContainer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.formField {
+  margin-bottom: 16px;
+  border: 1px solid #00dd88;
+}
+
+.errorText {
+  color: red;
+}
+
+.label {
+  font-family: "Roboto", sans-serif;
+  color: #00dd88;
+}
+
+.loginLink {
+  color: #00aa66;
+}
+
+.loginLink:hover {
+  color: #00dd88;
+  text-decoration: underline;
+}

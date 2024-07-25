@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f5;
+  height: 100vh; /* Define a altura total da viewport */
+  overflow: hidden; /* Esconde a rolagem para o container principal */
+}
+
+.sideMenu {
+  width: 63vw;
+  max-width: 400px;
+  height: 100%;
+  overflow: hidden; /* Permite rolagem no SideMenu se necessário */
+}
+
+.subjectContent {
+  min-height: 100vh;
+  min-width: 83vw;
+  overflow: auto; /* Permite rolagem apenas no conteúdo */
+}

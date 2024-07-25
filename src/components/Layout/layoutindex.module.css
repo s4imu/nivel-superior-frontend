@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f5;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.sideMenu {
+  width: 50vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.subjectContent {
+  flex: 1;
+  overflow: auto;
+}
+
+.adminBackground {
+  background-color: #e1f3e5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logoutButton {
+  background: none;
+  border: none;
+  color: #00dd88;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: "700";
+}
+
+.logoutButton:hover {
+  color: #102223;
+}

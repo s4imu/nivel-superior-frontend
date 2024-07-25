@@ -1,0 +1,15 @@
+.videoContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem; /* Espaço entre vídeos */
+}
+
+.video {
+  width: 100%;
+  max-width: 60vw; /* Largura máxima como uma porcentagem da largura da janela */
+  height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+  max-height: 45vw; /* Ajusta a altura máxima como uma porcentagem da largura da janela */
+  aspect-ratio: 16 / 9; /* Mantém a proporção de 16:9 */
+}

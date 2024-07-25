@@ -1,0 +1,24 @@
+.listSubjects {
+  margin-top: 2rem;
+}
+
+.courseCard,
+.courseCardAdmin {
+  background-color: #e1f3e5;
+  border: 1px solid #00dd88;
+  margin-bottom: 2px;
+}
+
+.courseCard:hover {
+  background-color: #00dd88;
+}
+
+.titleCard {
+  font-weight: 700;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
